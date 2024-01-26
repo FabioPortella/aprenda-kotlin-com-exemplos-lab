@@ -16,7 +16,7 @@ data class Formacao(val nome: String, var conteudos: List<ConteudoEducacional>, 
 }
 
 fun main() {
-	val fabioUsuario = Usuario("Fabio")
+    val fabioUsuario = Usuario("Fabio")
     val henriqueUsuario = Usuario("Henrique")
     val contEdu01 = ConteudoEducacional("Git")
     val contEdu02 = ConteudoEducacional("GitHub")
